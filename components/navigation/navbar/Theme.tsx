@@ -16,6 +16,8 @@ const Theme = () => {
   const { setTheme } = useTheme();
 
   return (
+    // DropDown btn from ShadCN
+
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="icon">
