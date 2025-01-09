@@ -36,7 +36,7 @@ const NavLinks = ({ isMobileNav = false }: { isMobileNax?: boolean }) => {
               isActive
                 ? "primary-gradient rounded-lg text-light-900" // Active link styling
                 : "text-dark300_light900", // Inactive link styling
-              "flex items-center justify-start gap-4 bg-transparent p-4" // Common styles
+              "flex items-center lg:justify-start sm:justify-center gap-4 bg-transparent p-4" // Common styles
             )}
             href={item.route}
             key={item.label}
